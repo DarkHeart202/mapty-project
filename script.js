@@ -232,7 +232,7 @@ class App {
     this.#workouts.forEach(w => this._renderWorkout(w));
   }
   reset() {
-    localStorage.removeItem('workout');
+    localStorage.removeItem('workouts');
     location.reload();
   }
 }
